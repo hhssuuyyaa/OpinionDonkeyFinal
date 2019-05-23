@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#fff</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="dialogAnimGrow">
+        <item name="android:windowEnterAnimation">@animator/dialog_anim_enter</item>
+        <item name="android:windowExitAnimation">@animator/dialog_anim_exit</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/nunito_semibold</item>
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/nunito_bold</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

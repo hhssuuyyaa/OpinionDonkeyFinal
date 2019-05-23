@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Opinion Donkey</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Your Email</string>
+    <string name="useremail">username@something.com</string>
+
+    <string name="createPollTxt">Create a poll</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search a Poll</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="tab_text_1">Polls</string>
+    <string name="tab_text_2">Facts</string>
+    <string name="tab_text_3">News</string>
+
+    <string name="or">OR</string>
+</resources>

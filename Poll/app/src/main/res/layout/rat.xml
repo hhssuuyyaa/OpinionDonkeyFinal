@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ratresult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.poll.rat">
+
+
+    <com.hsalf.smilerating.SmileRating
+        android:id="@+id/sm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Q"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/but" />
+
+    <EditText
+        android:id="@+id/Q"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/qbg"
+        android:ems="10"
+        android:inputType="none" />
+
+
+</RelativeLayout>
